@@ -33,6 +33,7 @@ button {
 
 .start-game:hover{
     background-color: rgb(68, 204, 58, 0.85);
+    cursor: pointer;
 }
 
 .reset-game{
@@ -41,6 +42,7 @@ button {
 
 .reset-game:hover{
     background-color: rgba(255, 99, 71, 0.85);
+    cursor: pointer;
 }
 
 .game-menu {
@@ -71,6 +73,7 @@ button {
 
 .character-choice button:hover{
     background-color: rgba(81, 208, 255, 0.85);
+    cursor: pointer;
 }
 
 .gameboard{
