@@ -6,15 +6,15 @@ body {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   gap: 30px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-h1{
-    font-weight: 600;
-    font-size: 4rem;
-    margin: 0;
-    margin-top: 10px;
-    color: rgb(255, 104, 28);
+h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  margin: 0;
+  margin-top: 10px;
+  color: rgb(255, 104, 28);
 }
 
 button {
@@ -23,15 +23,15 @@ button {
   border-radius: 8px;
 }
 
-.reset-game{
-    background-color: tomato;
-    text-transform: uppercase;
-    color: white;
+.reset-game {
+  background-color: tomato;
+  text-transform: uppercase;
+  color: white;
 }
 
-.reset-game:hover{
-    background-color: rgba(255, 99, 71, 0.85);
-    cursor: pointer;
+.reset-game:hover {
+  background-color: rgba(255, 99, 71, 0.85);
+  cursor: pointer;
 }
 
 .game-menu {
@@ -39,40 +39,65 @@ button {
   gap: 20px;
 }
 
-.choose-character{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.choose-character {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.character-choice{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.character-choice {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.character-choice button{
-    background-color: #51d0ff;
-    border: 1px solid transparent;
-    padding: 10px 30px;
-    border-radius: 10px;
-    font-size: 2rem;
-    font-weight: 100;
+.character-choice button {
+  background-color: #51d0ff;
+  border: 1px solid transparent;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 2rem;
+  font-weight: 100;
 }
 
-.character-choice button:hover{
-    background-color: rgba(81, 208, 255, 0.85);
-    cursor: pointer;
+.character-choice button:hover {
+  background-color: rgba(81, 208, 255, 0.85);
+  cursor: pointer;
 }
 
-.gameboard{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+.gameboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.gameboard div{
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
+.gameboard div {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.gameboard .top {
+  border-top: transparent;
+}
+
+.gameboard .left {
+  border-left: transparent;
+}
+
+.gameboard .bottom {
+  border-bottom: transparent;
+}
+
+.gameboard .right {
+  border-right: transparent;
+}
+
+.box {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: 700;
 }
