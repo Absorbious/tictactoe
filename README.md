@@ -2,6 +2,8 @@
 
 This is a project within The Odin Project curriculum that I made.
 
+You can visit it by clicking on [this link](https://absorbious.github.io/tictactoe/).
+
 In this project I tried to clean the code as much as possible by splitting the logic in separate functions and reusing them in other parts of the logic where it's needed. 
 
 ###### Game features:
